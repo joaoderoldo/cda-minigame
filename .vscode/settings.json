@@ -1,0 +1,28 @@
+{
+  "editor.rulers": [80, 120],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+
+  "files.associations": {
+    ".env": "dotenv",
+    ".prettierrc": "json",
+    "*.css": "css"
+  },
+
+  "[javascript][typescript][typescriptreact][javascriptreact][html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "css.lint.unknownAtRules": "ignore",
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never"
+}
